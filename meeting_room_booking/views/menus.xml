@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Menu principal -->
+    <menuitem id="menu_meeting_root" name="Meeting Room Management" sequence="10"/>
+
+    <!-- Submenu de salas -->
+    <menuitem id="menu_meeting_room" name="Rooms" parent="menu_meeting_root"
+              action="action_meeting_room" sequence="10"/>
+
+    <!-- Submenu de reservas -->
+    <menuitem id="menu_meeting_booking" name="Bookings" parent="menu_meeting_root"
+              action="action_meeting_booking" sequence="20"/>
+</odoo>
