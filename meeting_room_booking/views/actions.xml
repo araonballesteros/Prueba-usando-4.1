@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Accion para ver las salas -->
+    <record id="action_meeting_room" model="ir.actions.act_window">
+        <field name="name">Salas</field>
+        <field name="res_model">meeting.room</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Accion para ver las reservas -->
+    <record id="action_meeting_booking" model="ir.actions.act_window">
+        <field name="name">Reservas</field>
+        <field name="res_model">meeting.booking</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
